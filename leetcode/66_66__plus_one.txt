@@ -1,0 +1,15 @@
+
+// Problem: 66. Plus One
+// URL: https://leetcode.com/problems/plus-one/?envType=daily-question&envId=2026-01-02
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digi = ""
+        for i in digits:
+            digi += str(i)
+        ans = str(int(digi) + 1)
+        res = [int(i) for i in ans]
+        return res
+
+            
+        
