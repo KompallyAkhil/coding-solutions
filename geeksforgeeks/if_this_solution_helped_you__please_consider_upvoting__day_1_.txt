@@ -1,0 +1,8 @@
+
+// Problem: If this solution helped you, please consider upvoting.(DAY-1)
+// Time Complexity: O(n + m)Auxiliary Space: O(1)
+// URL: https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
+
+Input: head1: 10 -> 15 -> 30, head2: 3 -> 6 -> 9 -> 15 -> 30
+Output: 15
+Explanation: From the above image, it is clearly seen that the common part is 15 -> 30, whose starting point is 15.    
