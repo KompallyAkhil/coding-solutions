@@ -1,0 +1,23 @@
+
+// Problem: 5. Longest Palindromic Substring
+// URL: https://leetcode.com/problems/longest-palindromic-substring/description/
+
+class Solution {
+    public static String isPalindrome(String s , int left , int right){
+        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
+            left--;
+            right++;
+        }
+        return s.substring(left + 1,right);
+    }
+    public String longestPalindrome(String s) {
+        if(s.length() <= 1){
+            return s;
+        }
+        String maxStr = s.substring(0,1);
+
+        for(int i = 0 ; i < s.length() - 1 ; i++){
+            String odd = isPalindrome(s,i,i);
+            String even = isPalindrome(s,i,i + 1);
+            System.out.println(odd);
+            System.out.println(even);
