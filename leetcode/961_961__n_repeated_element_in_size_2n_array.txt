@@ -1,0 +1,11 @@
+
+// Problem: 961. N-Repeated Element in Size 2N Array
+// URL: https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/?envType=daily-question&envId=2026-01-02
+
+class Solution:
+    def repeatedNTimes(self, nums: List[int]) -> int:
+        dic = Counter(nums)
+        for k,v in dic.items():
+            if v > 1:
+                return k
+        
