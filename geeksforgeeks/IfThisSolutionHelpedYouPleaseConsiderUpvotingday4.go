@@ -2,7 +2,6 @@
 //
 // Problem: If this solution helped you, please consider upvoting.(DAY - 4)
 //
-// Time Complexity: O(n)Auxiliary Space: O(1)
 
 // Solution:
 class Solution {
