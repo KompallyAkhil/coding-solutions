@@ -8,10 +8,22 @@
 class Solution {
     public int maxSubarraySum(int[] arr, int k) {
 
-        cont_sum = res = sum(arr[:k])
-        for i in range(k,len(arr)):
-            cont_sum = cont_sum - arr[i-k] + arr[i]
-            res = max(cont_sum,res)
-        return res
+        int answer=0;
+        int n=arr.length;
+        if(n<k)
+        return 0;
+
+        int sum=0;
+        for(int i=0;i<k;i++)
+        {
+           sum+=arr[i];
+        }
+        answer=sum;
+        for(int i=k;i<n;i++)
+        {
+            sum=sum+(arr[i]-arr[i-k]);
+            answer=Math.max(sum,answer);
+        }
+        return answer;
     }
 }
