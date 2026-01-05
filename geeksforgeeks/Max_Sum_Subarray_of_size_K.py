@@ -19,8 +19,7 @@ class Solution {
            sum+=arr[i];
         }
         answer=sum;
-        for(int i=k;i<n;i++)
-        {
+        for(int i=k;i<n;i++){
             sum=sum+(arr[i]-arr[i-k]);
             answer=Math.max(sum,answer);
         }
