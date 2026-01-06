@@ -4,7 +4,22 @@
 //
 
 // Solution:
-int level = 0;
+*     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int maxLevelSum(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int level = 0;
         int sum = Integer.MIN_VALUE;
         int depth = 0;
         int maxiDepth = 0;
@@ -34,4 +49,8 @@ int level = 0;
         }
         return maxiDepth;
     }
-        q.add(root);
+}
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+/**
