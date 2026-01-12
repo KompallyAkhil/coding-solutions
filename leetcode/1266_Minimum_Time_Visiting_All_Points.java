@@ -1,11 +1,11 @@
-// URL: https://leetcode.com/problems/minimum-time-visiting-all-points/?envType=daily-question&envId=2026-01-12
+// URL: https://leetcode.com/problems/minimum-time-visiting-all-points/description/?envType=daily-question&envId=2026-01-12
 //
 // Problem: 1266. Minimum Time Visiting All Points
 //
 
 // Solution:
 class Solution {
-    public int minTimeToVisitAllPoints(int[][] points) {
+    public int minTimeToVisitAllPoints(int[][] p) {
         int ans = 0;
         for (int i = 1; i < p.length; i++) {
             ans += Math.max(
