@@ -4,14 +4,7 @@
 //
 
 // Solution:
-class Solution {
-    public int romanToInt(String s) {
-        Map<String, Integer> values = new HashMap<>();
-        values.put("I", 1);
-        values.put("V", 5);
-        values.put("X", 10);
-        values.put("L", 50);
-        values.put("C", 100);
+values.put("C", 100);
         values.put("D", 500);
         values.put("M", 1000);
 
@@ -25,3 +18,10 @@ class Solution {
             int v = entry.getValue();
             for (char i : s.toCharArray()) {
                 if (k.charAt(0) == i) {
+                    count += v;
+                }
+            }
+        }
+        return count;
+    }
+}
