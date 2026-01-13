@@ -24,6 +24,26 @@ class Solution {
                 ansList.add(arr[dq.getFirst()]);
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         return ansList;
-    }
-}
