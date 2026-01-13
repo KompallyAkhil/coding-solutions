@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13
+// URL: https://leetcode.com/problems/separate-squares-i/?envType=daily-question&envId=2026-01-13
 //
 // Problem: 3453. Separate Squares I
 //
