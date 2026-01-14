@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/two-sum/description/
+// URL: https://leetcode.com/problems/two-sum/
 //
 // Problem: 1. Two Sum
 //
