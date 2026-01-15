@@ -1,4 +1,4 @@
-# URL: https://leetcode.com/problems/first-missing-positive/description/
+# URL: https://leetcode.com/problems/first-missing-positive/
 #
 # Problem: 41. First Missing Positive
 #
